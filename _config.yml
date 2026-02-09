@@ -5,10 +5,10 @@ baseurl: /rastreo
 lang: es
 locale: es-ES
 
-# --- Tema Minimal Mistakes vía remote_theme (funciona en GitHub Pages) ---
+# Tema Minimal Mistakes vía remote_theme (compatible con GitHub Pages)
 remote_theme: mmistakes/minimal-mistakes@4.24.0
 
-# --- Plugins compatibles con GitHub Pages ---
+# Plugins soportados por GitHub Pages (no añadir otros)
 plugins:
   - jekyll-include-cache
   - jekyll-sitemap
@@ -16,27 +16,11 @@ plugins:
   - jemoji
   - jekyll-seo-tag
 
-# --- Configuración del tema ---
-theme_skin: default # (opciones: default, contrast, dark, neon, air, etc.)
+# Apariencia: probamos skin "air" (con acento azul)
+theme_skin: air
 search: true
-paginate: 5
-paginate_path: /page:num/
 
-author:
-  name: "Christyan Mario Cruz Ulloa"
-  avatar: # (opcional) p.ej. /assets/img/leonardo_1.jpeg
-  bio: "Grupo de Robótica y Cibernética (CAR‑UPM‑CSIC), UPM"
-  location: "Madrid, España"
-  links:
-    - label: "Email"
-      icon: "fas fa-envelope"
-      url: "mailto:tu_email@upm.es"
-    - label: "CAR‑UPM‑CSIC"
-      icon: "fas fa-university"
-      url: "https://www.car.upm-csic.es/"
-
-# --- Navegación superior (main) ---
-# Puedes mantenerlo aquí o moverlo a _data/navigation.yml
+# Navegación superior (asegura que "Equipo" está)
 nav:
   - title: "Inicio"
     url: /
@@ -48,22 +32,19 @@ nav:
     url: /difusion/
   - title: "Equipo"
     url: /equipo/
-  - title: "Datos y Código"
-    url: /datos-codigo/
   - title: "Contacto"
     url: /contacto/
 
-# --- Footer (menciones obligatorias BBVA) ---
+# Footer con menciones BBVA (seguirá saliendo el badge flotante en index)
 footer:
-  links:
-    - label: "Fundación BBVA"
-      icon: "fas fa-external-link-alt"
-      url: "https://www.fbbva.es/"
   content: >
     <small>
-    “Proyecto realizado con la Beca Leonardo de Investigación Científica y Creación Cultural 2024 de la Fundación BBVA”.
+    “Proyecto realizado con la Beca Leonardo de Investigación Científica y Creación Cultural 2024 de la Fundación BBVA”.<br>
     “La Fundación no se responsabiliza de las opiniones, comentarios y contenidos incluidos en el proyecto, los cuales son total y absoluta responsabilidad de sus autores”.
     </small>
 
-# --- Opciones de colecciones/páginas ---
-# (dejamos por defecto; usaremos páginas sueltas en /)
+# (Opcional) compilar Sass y permitir assets/css
+sass:
+  style: compressed
+include:
+  - assets/css

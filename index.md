@@ -3,39 +3,39 @@ layout: splash
 title: "RASTREO — Brigada Robotizada Inteligente de Búsqueda y Rescate"
 permalink: /
 
-# Cabecera con imagen (rutas absolutas porque baseurl=/rastreo)
+# Portada con imagen (sin escribir /rastreo, usamos relative_url)
 header:
-  overlay_image: /rastreo/assets/img/leonardo_1.jpeg
+  overlay_image: "{{ '/assets/img/leonardo_1.jpeg' | relative_url }}"
   overlay_filter: 0.30
   actions:
     - label: "Ver el proyecto"
-      url: "/rastreo/proyecto/"
+      url: "{{ '/proyecto/' | relative_url }}"
     - label: "Equipo"
-      url: "/rastreo/equipo/"
+      url: "{{ '/equipo/' | relative_url }}"
 excerpt: >
   Brigada mixta humanoide–cuadrúpedos con IA avanzada, simulación hiperrealista y validación <em>Sim‑to‑Real</em> para búsqueda y rescate en escenarios de desastre.
 
-# Tarjetas (deben ir en el front matter)
+# Tarjetas (también con relative_url)
 feature_row:
-  - image_path: /rastreo/assets/img/leonardo_1.jpeg
+  - image_path: "{{ '/assets/img/leonardo_1.jpeg' | relative_url }}"
     alt: "Proyecto"
     title: "Proyecto"
     excerpt: "Objetivos, motivación, hipótesis y metodología."
-    url: "/rastreo/proyecto/"
+    url: "{{ '/proyecto/' | relative_url }}"
     btn_label: "Leer más"
     btn_class: "btn--primary"
-  - image_path: /rastreo/assets/img/leonardo_1.jpeg
+  - image_path: "{{ '/assets/img/leonardo_1.jpeg' | relative_url }}"
     alt: "Resultados"
     title: "Resultados"
     excerpt: "Demos, vídeos, publicaciones y validación Sim‑to‑Real."
-    url: "/rastreo/resultados/"
+    url: "{{ '/resultados/' | relative_url }}"
     btn_label: "Ver avances"
     btn_class: "btn--primary"
-  - image_path: /rastreo/assets/img/leonardo_1.jpeg
+  - image_path: "{{ '/assets/img/leonardo_1.jpeg' | relative_url }}"
     alt: "Difusión"
     title: "Difusión"
     excerpt: "Apariciones en medios, notas de prensa y divulgación."
-    url: "/rastreo/difusion/"
+    url: "{{ '/difusion/' | relative_url }}"
     btn_label: "Ver difusión"
     btn_class: "btn--primary"
 ---

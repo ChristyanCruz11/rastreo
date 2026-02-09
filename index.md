@@ -1,9 +1,9 @@
 ---
 layout: splash
-title: "RASTREO — Brigada Robotizada Inteligente de Búsqueda y Rescate"
+title: "RASTREO : Brigada Robotizada Inteligente de Búsqueda y Rescate"
 permalink: /
 
-# Portada con imagen (sin escribir /rastreo, usamos relative_url)
+# Portada con imagen (sin escribir /rastreo; usamos relative_url)
 header:
   overlay_image: "{{ '/assets/img/leonardo_1.jpeg' | relative_url }}"
   overlay_filter: 0.30
@@ -15,7 +15,7 @@ header:
 excerpt: >
   Brigada mixta humanoide–cuadrúpedos con IA avanzada, simulación hiperrealista y validación <em>Sim‑to‑Real</em> para búsqueda y rescate en escenarios de desastre.
 
-# Tarjetas (también con relative_url)
+# Tarjetas (con relative_url también)
 feature_row:
   - image_path: "{{ '/assets/img/leonardo_1.jpeg' | relative_url }}"
     alt: "Proyecto"

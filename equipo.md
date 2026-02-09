@@ -54,7 +54,7 @@ classes: wide
 
   <!-- Christyan -->
   <div class="team-card">
-    <img src="/rastreo/assets/img/Christyan.png" alt="Christyan">
+    <img src="/assets/img/Christyan.png" alt="Christyan">
     <div class="team-name">Christyan Mario Cruz Ulloa</div>
     <div class="team-role">Investigador Principal (IP) del Proyecto</div>
     <div class="team-affil">CAR‑UPM‑CSIC</div>
@@ -62,7 +62,7 @@ classes: wide
 
   <!-- Antonio -->
   <div class="team-card">
-    <img src="/rastreo/assets/img/Antonio.png" alt="Antonio">
+    <img src="/assets/img/Antonio.png" alt="Antonio">
     <div class="team-name">Antonio</div>
     <div class="team-role">Profesor UPM</div>
     <div class="team-affil">Universidad Politécnica de Madrid</div>
@@ -70,7 +70,7 @@ classes: wide
 
   <!-- Jaime (profesor) -->
   <div class="team-card">
-    <img src="/rastreo/assets/img/Jaime.png" alt="Jaime">
+    <img src="/assets/img/Jaime.png" alt="Jaime">
     <div class="team-name">Jaime</div>
     <div class="team-role">Profesor UPM</div>
     <div class="team-affil">Universidad Politécnica de Madrid</div>
@@ -78,7 +78,7 @@ classes: wide
 
   <!-- David -->
   <div class="team-card">
-    <img src="/rastreo/assets/img/David.png" alt="David">
+    <img src="/assets/img/David.png" alt="David">
     <div class="team-name">David</div>
     <div class="team-role">Investigador Predoctoral</div>
     <div class="team-affil">CAR‑UPM‑CSIC</div>
@@ -86,7 +86,7 @@ classes: wide
 
   <!-- Jorge -->
   <div class="team-card">
-    <img src="/rastreo/assets/img/Jorge.png" alt="Jorge">
+    <img src="/assets/img/Jorge.png" alt="Jorge">
     <div class="team-name">Jorge</div>
     <div class="team-role">Investigador Predoctoral</div>
     <div class="team-affil">CAR‑UPM‑CSIC</div>
@@ -94,7 +94,7 @@ classes: wide
 
   <!-- Jaime_1 -->
   <div class="team-card">
-    <img src="/rastreo/assets/img/Jaime_1.png" alt="Jaime_1">
+    <img src="/assets/img/Jaime_1.png" alt="Jaime_1">
     <div class="team-name">Jaime</div>
     <div class="team-role">Investigador Predoctoral</div>
     <div class="team-affil">CAR‑UPM‑CSIC</div>
@@ -102,7 +102,7 @@ classes: wide
 
   <!-- Fiorella -->
   <div class="team-card">
-    <img src="/rastreo/assets/img/Fiorella.png" alt="Fiorella">
+    <img src="/assets/img/Fiorella.png" alt="Fiorella">
     <div class="team-name">Fiorella</div>
     <div class="team-role">Investigadora Contratada</div>
     <div class="team-affil">CAR‑UPM‑CSIC</div>

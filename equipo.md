@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Equipo"
-permalink: /equipo/
+permalink: /
 toc: false
 classes: wide
 ---

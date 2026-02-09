@@ -1,12 +1,14 @@
-title: RASTREO — Brigada Robotizada de Búsqueda y Rescate
+title: RASTREO: Brigada Robotizada de Búsqueda y Rescate
 description: Proyecto realizado con la Beca Leonardo de Investigación Científica y Creación Cultural 2024 de la Fundación BBVA.
-url: https://christyancruz11.github.io
-baseurl: /rastreo
+url: https://christyancruz11.github.io    # sin barra final
+baseurl: /rastreo                         # con barra inicial
 lang: es
 locale: es-ES
 
+# Tema vía remote_theme (no uses también `theme:`)
 remote_theme: mmistakes/minimal-mistakes@4.24.0
 
+# Plugins soportados por GitHub Pages
 plugins:
   - jekyll-include-cache
   - jekyll-sitemap
@@ -14,10 +16,11 @@ plugins:
   - jemoji
   - jekyll-seo-tag
 
+# Apariencia con acentos azules
 theme_skin: air
 search: true
 
-# SIN /rastreo aquí; Jekyll les aplica relative_url
+# Menú superior — NO pongas /rastreo aquí; Jekyll le añade baseurl
 nav:
   - title: "Inicio"
     url: /
@@ -34,12 +37,7 @@ nav:
   - title: "Contacto"
     url: /contacto/
 
-sass:
-  style: compressed
-include:
-  - assets/css
-
-# Footer con menciones BBVA (seguirá saliendo el badge flotante en index)
+# Footer con menciones (texto plano, sin entidades HTML escapadas)
 footer:
   content: >
     <small>
@@ -47,7 +45,7 @@ footer:
     “La Fundación no se responsabiliza de las opiniones, comentarios y contenidos incluidos en el proyecto, los cuales son total y absoluta responsabilidad de sus autores”.
     </small>
 
-# (Opcional) compilar Sass y permitir assets/css
+# Sass y carpeta de assets
 sass:
   style: compressed
 include:

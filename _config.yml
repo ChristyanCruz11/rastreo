@@ -21,6 +21,7 @@ theme_skin: air
 search: true
 
 # Navegación superior (asegura que "Equipo" está)
+
 nav:
   - title: "Inicio"
     url: /
@@ -32,8 +33,11 @@ nav:
     url: /difusion/
   - title: "Equipo"
     url: /equipo/
+  - title: "Datos y Código"
+    url: /datos-codigo/
   - title: "Contacto"
     url: /contacto/
+
 
 # Footer con menciones BBVA (seguirá saliendo el badge flotante en index)
 footer:

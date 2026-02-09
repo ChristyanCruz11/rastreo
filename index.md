@@ -3,21 +3,19 @@ layout: splash
 title: "RASTREO — Brigada Robotizada Inteligente de Búsqueda y Rescate"
 permalink: /
 
-# Cabecera con imagen de portada (hero)
-# Como tu sitio es de proyecto, las rutas públicas empiezan por /rastreo
+# Cabecera con imagen (rutas absolutas porque baseurl=/rastreo)
 header:
   overlay_image: /rastreo/assets/img/leonardo_1.jpeg
   overlay_filter: 0.30
   actions:
     - label: "Ver el proyecto"
       url: "/rastreo/proyecto/"
-    - label: "Contacto"
-      url: "/rastreo/contacto/"
+    - label: "Equipo"
+      url: "/rastreo/equipo/"
 excerpt: >
   Brigada mixta humanoide–cuadrúpedos con IA avanzada, simulación hiperrealista y validación <em>Sim‑to‑Real</em> para búsqueda y rescate en escenarios de desastre.
 
-# --- TARJETAS (feature_row) ---
-# Deben declararse en el FRONT MATTER para que el include funcione
+# Tarjetas (deben ir en el front matter)
 feature_row:
   - image_path: /rastreo/assets/img/leonardo_1.jpeg
     alt: "Proyecto"
@@ -48,25 +46,12 @@ feature_row:
   <h2>¿Qué es RASTREO?</h2>
   <p>
     <strong>RASTREO</strong> desarrolla una brigada robotizada que combina robots cuadrúpedos y un robot humanoide de última generación para
-    <strong>explorar entornos pos‑desastre</strong> y <strong>asistir directamente a víctimas</strong>. El sistema integra percepción multimodal (RGB‑D, LiDAR),
+    <strong>explorar entornos pos‑desastre</strong> y <strong>asistir directamente a víctimas</strong>. Integra percepción multimodal (RGB‑D, LiDAR),
     <strong>IA</strong> (aprendizaje por refuerzo, coordinación multi‑agente) y <em>simulaciones hiperrealistas</em> para entrenar y validar políticas antes del despliegue real.
   </p>
-
-  <h3>Objetivo general</h3>
-  <p>
-    Implementar una <strong>Brigada Robotizada</strong> humanoide–cuadrúpedos capaz de reducir tiempos de respuesta y riesgos para equipos humanos, aumentando la
-    probabilidad de rescate con vida mediante <em>exploración coordinada</em> y <strong>asistencia segura</strong> a víctimas.
-  </p>
-
-  <h3>Objetivos específicos</h3>
-  <ul>
-    <li><strong>O1:</strong> Entornos virtuales hiperrealistas con IA generativa para entrenar colaboración y manipulación.</li>
-    <li><strong>O2:</strong> Control seguro de asistencia en humanoide (impedancia, contacto) entrenado con aprendizaje por refuerzo.</li>
-    <li><strong>O3:</strong> Validación <em>Sim‑to‑Real</em>, demostradores, publicaciones y difusión social.</li>
-  </ul>
 </section>
 
-<!-- Badge flotante con menciones BBVA (esquina inferior derecha) -->
+<!-- Menciones BBVA como badge flotante, discreto en la esquina -->
 <div class="bbva-badge">
   <small>
     “Proyecto realizado con la Beca Leonardo de Investigación Científica y Creación Cultural 2024 de la Fundación BBVA”.<br>
@@ -75,17 +60,17 @@ feature_row:
 </div>
 
 <style>
-/* Caja flotante en esquina inferior derecha */
+/* Caja flotante discreta en esquina inferior derecha */
 .bbva-badge{
   position: fixed;
-  right: 12px;
-  bottom: 12px;
+  right: 10px;
+  bottom: 10px;
   max-width: 320px;
   background: rgba(255,255,255,0.92);
-  border: 1px solid rgba(0,0,0,0.08);
+  border: 1px solid rgba(0,0,0,0.06);
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   border-radius: 8px;
-  padding: 10px 12px;
+  padding: 8px 10px;
   z-index: 9999;
   font-size: 12px;
   line-height: 1.3;

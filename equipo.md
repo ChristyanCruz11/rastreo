@@ -61,42 +61,42 @@ classes: wide
 
   <div class="team-card">
     <img src="/rastreo/assets/img/Antonio.png" alt="Antonio">
-    <div class="team-name">Antonio</div>
-    <div class="team-role">Profesor UPM</div>
+    <div class="team-name">Antonio Barrientos</div>
+    <div class="team-role">Catedrático</div>
     <div class="team-affil">Universidad Politécnica de Madrid</div>
   </div>
 
   <div class="team-card">
     <img src="/rastreo/assets/img/Jaime.png" alt="Jaime">
-    <div class="team-name">Jaime</div>
-    <div class="team-role">Profesor UPM</div>
+    <div class="team-name">Jaime del Cerro</div>
+    <div class="team-role">Profesor Titular</div>
     <div class="team-affil">Universidad Politécnica de Madrid</div>
   </div>
 
   <div class="team-card">
     <img src="/rastreo/assets/img/David.png" alt="David">
-    <div class="team-name">David</div>
+    <div class="team-name">David Orbea</div>
     <div class="team-role">Investigador Predoctoral</div>
     <div class="team-affil">CAR‑UPM‑CSIC</div>
   </div>
 
   <div class="team-card">
     <img src="/rastreo/assets/img/Jorge.png" alt="Jorge">
-    <div class="team-name">Jorge</div>
+    <div class="team-name">Jorge García</div>
     <div class="team-role">Investigador Predoctoral</div>
     <div class="team-affil">CAR‑UPM‑CSIC</div>
   </div>
 
   <div class="team-card">
     <img src="/rastreo/assets/img/Jaime_1.png" alt="Jaime_1">
-    <div class="team-name">Jaime</div>
+    <div class="team-name">Jaime Bravo</div>
     <div class="team-role">Investigador Predoctoral</div>
     <div class="team-affil">CAR‑UPM‑CSIC</div>
   </div>
 
   <div class="team-card">
     <img src="/rastreo/assets/img/Fiorella.png" alt="Fiorella">
-    <div class="team-name">Fiorella</div>
+    <div class="team-name">Fiorella Capolungo</div>
     <div class="team-role">Investigadora Contratada</div>
     <div class="team-affil">CAR‑UPM‑CSIC</div>
   </div>

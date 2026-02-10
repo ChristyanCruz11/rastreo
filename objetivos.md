@@ -3,10 +3,11 @@ layout: splash
 title: "Objetivos del Proyecto"
 permalink: /objetivos/
 
-# --- CABECERA PRINCIPAL (IDÉNTICA A LA DE INICIO) ---
+# --- CABECERA (CORREGIDA) ---
+# Quitamos '/rastreo' del inicio porque el tema ya lo añade automáticamente.
 header:
-  overlay_image: /rastreo/assets/img/leonardo_1.jpeg
-  overlay_filter: 0.3 # Mismo filtro que en la home para que se vea igual
+  overlay_image: /assets/img/leonardo_1.jpeg
+  overlay_filter: 0.3
   caption: "Créditos: RASTREO Team"
 excerpt: >
   Nuestra hoja de ruta científica: desde la simulación hiperrealista hasta la validación en escenarios de desastre real.
@@ -30,8 +31,8 @@ excerpt: >
   .obj-overlay {
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
-    /* CAMBIO AQUÍ: Bajado a 0.15 (15% de oscuridad) para que sean muy claras */
-    background: rgba(0, 0, 0, 0.15); 
+    /* AHORA ES MUCHO MÁS CLARO (Solo 10% de negro) */
+    background: rgba(0, 0, 0, 0.1); 
     z-index: 1;
   }
   
@@ -42,14 +43,14 @@ excerpt: >
     margin: 0 auto;
   }
 
+  /* Texto con sombra fuerte para que se lea sobre fotos claras */
   .obj-content h2 {
     color: #fff;
     font-size: 2.5rem;
     margin-bottom: 1rem;
     text-transform: uppercase;
-    /* Sombra fuerte para que el texto se lea bien sobre la foto clara */
-    text-shadow: 2px 2px 8px rgba(0,0,0,0.9);
-    border-bottom: 2px solid rgba(255,255,255,0.6);
+    text-shadow: 2px 2px 8px #000; 
+    border-bottom: 2px solid rgba(255,255,255,0.7);
     display: inline-block;
     padding-bottom: 10px;
   }
@@ -58,12 +59,12 @@ excerpt: >
     font-size: 1.25rem;
     line-height: 1.6;
     color: #fff;
-    font-weight: 500;
-    text-shadow: 1px 1px 6px rgba(0,0,0,1);
+    font-weight: 600; /* Letra un poco más gruesa */
+    text-shadow: 1px 1px 5px #000;
   }
 </style>
 
-<div class="obj-banner" style="background-image: url('/rastreo/assets/img/ob_1.png');">
+<div class="obj-banner" style="background-image: url('assets/img/ob_1.png');">
   <div class="obj-overlay"></div>
   <div class="obj-content">
     <h2>1. Simulación Hiperrealista</h2>
@@ -74,7 +75,7 @@ excerpt: >
   </div>
 </div>
 
-<div class="obj-banner" style="background-image: url('/rastreo/assets/img/ob_2.png');">
+<div class="obj-banner" style="background-image: url('assets/img/ob_2.png');">
   <div class="obj-overlay"></div>
   <div class="obj-content">
     <h2>2. Asistencia Inteligente</h2>
@@ -85,7 +86,7 @@ excerpt: >
   </div>
 </div>
 
-<div class="obj-banner" style="background-image: url('/rastreo/assets/img/ob_3.png');">
+<div class="obj-banner" style="background-image: url('assets/img/ob_3.png');">
   <div class="obj-overlay"></div>
   <div class="obj-content">
     <h2>3. Validación Sim-to-Real</h2>

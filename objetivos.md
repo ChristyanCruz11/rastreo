@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Objetivos del Proyecto"
-permalink: /resultados/
+permalink: /objetivos/
 classes: wide
 
 # DEFINICIÓN DE TARJETAS (OBJETIVOS / RESULTADOS ESPERADOS)

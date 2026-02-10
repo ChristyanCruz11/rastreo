@@ -2,12 +2,11 @@
 layout: splash
 title: "Objetivos del Proyecto"
 permalink: /objetivos/
-classes: wide
 
-# --- CABECERA PRINCIPAL (PORTADA SUPERIOR) ---
+# --- CABECERA PRINCIPAL (IDÉNTICA A LA DE INICIO) ---
 header:
   overlay_image: /rastreo/assets/img/leonardo_1.jpeg
-  overlay_filter: 0.4
+  overlay_filter: 0.3 # Mismo filtro que en la home para que se vea igual
   caption: "Créditos: RASTREO Team"
 excerpt: >
   Nuestra hoja de ruta científica: desde la simulación hiperrealista hasta la validación en escenarios de desastre real.
@@ -17,7 +16,7 @@ excerpt: >
   .obj-banner {
     position: relative;
     width: 100%;
-    padding: 6rem 2rem; /* Espaciado interno generoso */
+    padding: 6rem 2rem;
     margin-bottom: 2rem;
     background-size: cover;
     background-position: center;
@@ -28,17 +27,17 @@ excerpt: >
     overflow: hidden;
   }
   
-  /* Capa oscura para mejorar legibilidad del texto */
   .obj-overlay {
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
-    background: rgba(0, 0, 0, 0.6); /* Oscuridad al 60% */
+    /* CAMBIO AQUÍ: Bajado a 0.15 (15% de oscuridad) para que sean muy claras */
+    background: rgba(0, 0, 0, 0.15); 
     z-index: 1;
   }
   
   .obj-content {
     position: relative;
-    z-index: 2; /* El texto va encima de la capa oscura */
+    z-index: 2;
     max-width: 900px;
     margin: 0 auto;
   }
@@ -48,8 +47,9 @@ excerpt: >
     font-size: 2.5rem;
     margin-bottom: 1rem;
     text-transform: uppercase;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
-    border-bottom: 2px solid rgba(255,255,255,0.3);
+    /* Sombra fuerte para que el texto se lea bien sobre la foto clara */
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.9);
+    border-bottom: 2px solid rgba(255,255,255,0.6);
     display: inline-block;
     padding-bottom: 10px;
   }
@@ -57,9 +57,9 @@ excerpt: >
   .obj-content p {
     font-size: 1.25rem;
     line-height: 1.6;
-    color: #f0f0f0;
-    text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
-    font-weight: 400;
+    color: #fff;
+    font-weight: 500;
+    text-shadow: 1px 1px 6px rgba(0,0,0,1);
   }
 </style>
 

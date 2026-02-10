@@ -108,4 +108,3 @@ excerpt: >
   </div>
 
 </section>
-<img width="425" height="688" alt="image" src="https://github.com/user-attachments/assets/0a39dec8-2a88-4d1f-9ca4-b58442ce9463" />

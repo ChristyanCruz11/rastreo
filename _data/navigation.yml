@@ -2,8 +2,6 @@
 main:
   - title: "Inicio"
     url: /
-  - title: "Proyecto"
-    url: /proyecto/
   - title: "Objetivos"
     url: /objetivos/
   - title: "Equipo"

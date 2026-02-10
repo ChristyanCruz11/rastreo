@@ -1,14 +1,21 @@
-title: RASTREO: Brigada Robotizada de Búsqueda y Rescate
-description: Proyecto realizado con la Beca Leonardo de Investigación Científica y Creación Cultural 2024 de la Fundación BBVA.
-url: https://christyancruz11.github.io    # sin barra final
-baseurl: /rastreo                         # con barra inicial
-lang: es
-locale: es-ES
+title: "RASTREO"
+# Descripción corta para SEO y redes sociales
+description: "Brigada Robotizada de Búsqueda y Rescate. Proyecto Beca Leonardo 2024 Fundación BBVA."
 
-# Tema vía remote_theme (no uses también `theme:`)
-remote_theme: mmistakes/minimal-mistakes@4.24.0
+# --- CONFIGURACIÓN DE URL ---
+# Es vital que url NO tenga barra al final y baseurl SÍ tenga barra al inicio
+url: "https://christyancruz11.github.io"
+baseurl: "/rastreo"
 
-# Plugins soportados por GitHub Pages
+# Idioma
+lang: "es"
+locale: "es-ES"
+
+# --- TEMA Y APARIENCIA ---
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "air" # Nombre correcto de la variable para el color
+
+# --- PLUGINS ---
 plugins:
   - jekyll-include-cache
   - jekyll-sitemap
@@ -16,37 +23,37 @@ plugins:
   - jemoji
   - jekyll-seo-tag
 
-# Apariencia con acentos azules
-theme_skin: air
+# --- COMPORTAMIENTO ---
 search: true
+words_per_minute: 200
+comments: false
 
-# Menú superior — NO pongas /rastreo aquí; Jekyll le añade baseurl
-nav:
-  - title: "Inicio"
-    url: /
-  - title: "Proyecto"
-    url: /proyecto/
-  - title: "Resultados"
-    url: /resultados/
-  - title: "Difusión"
-    url: /difusion/
-  - title: "Equipo"
-    url: /equipo/
-  - title: "Datos y Código"
-    url: /datos-codigo/
-  - title: "Contacto"
-    url: /contacto/
+# --- VALORES POR DEFECTO (MUY IMPORTANTE) ---
+# Esto asegura que todas las páginas nuevas tengan el diseño correcto
+defaults:
+  # Para todas las páginas y posts
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/leonardo_1.jpeg # Imagen por defecto si no pones una
+      layout: single        # Diseño estándar para páginas
+      author_profile: false # Oculta la barra lateral de autor por defecto (actívala en las páginas que quieras)
+      share: true
 
-# Footer con menciones (texto plano, sin entidades HTML escapadas)
+# --- PIE DE PÁGINA (FOOTER) ---
 footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ChristyanCruz11/rastreo"
   content: >
     <small>
     “Proyecto realizado con la Beca Leonardo de Investigación Científica y Creación Cultural 2024 de la Fundación BBVA”.<br>
     “La Fundación no se responsabiliza de las opiniones, comentarios y contenidos incluidos en el proyecto, los cuales son total y absoluta responsabilidad de sus autores”.
     </small>
 
-# Sass y carpeta de assets
+# Configuración Sass
 sass:
   style: compressed
 include:
-  - assets/css
+  - _pages

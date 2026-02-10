@@ -1,0 +1,16 @@
+# Este archivo controla los botones del menú superior
+main:
+  - title: "Inicio"
+    url: /
+  - title: "Proyecto"
+    url: /proyecto/
+  - title: "Resultados"
+    url: /resultados/
+  - title: "Difusión"
+    url: /difusion/
+  - title: "Equipo"
+    url: /equipo/
+  - title: "Datos y Código"
+    url: /datos-codigo/
+  - title: "Contacto"
+    url: /contacto/

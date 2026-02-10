@@ -22,14 +22,14 @@ feature_row:
     url: /proyecto/
     btn_label: "Leer más"
     btn_class: "btn--primary"
-  - image_path: /assets/img/leonardo_1.jpeg
+  - image_path: /assets/img/leonardo_2.jpeg
     alt: "Resultados"
     title: "Resultados"
     excerpt: "Demos, vídeos, publicaciones y validación Sim‑to‑Real."
     url: /resultados/
     btn_label: "Ver avances"
     btn_class: "btn--primary"
-  - image_path: /assets/img/leonardo_1.jpeg
+  - image_path: /assets/img/leonardo_3.jpeg
     alt: "Difusión"
     title: "Difusión"
     excerpt: "Apariciones en medios, notas de prensa y divulgación."

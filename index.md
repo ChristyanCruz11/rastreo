@@ -8,9 +8,7 @@ header:
   overlay_image: /assets/img/leonardo_1.jpeg
   overlay_filter: 0.30
   actions:
-    - label: "Ver el proyecto"
-      url: /proyecto/
-    - label: "Equipo"
+    - label: "Conoce a nuestro Equipo"
       url: /equipo/
 excerpt: >
   Brigada mixta humanoide–cuadrúpedos con IA avanzada, simulación hiperrealista y validación <em>Sim‑to‑Real</em> para búsqueda y rescate en escenarios de desastre.

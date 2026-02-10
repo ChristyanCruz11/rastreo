@@ -2,10 +2,8 @@
 main:
   - title: "Inicio"
     url: /
-  - title: "Objetivos"
+  - title: "Objetivos del Proyecto"
     url: /objetivos/
-  - title: "Equipo"
-    url: /equipo/
   - title: "Multimedia"
     url: /multimedia/
   - title: "Fundación BBVA"

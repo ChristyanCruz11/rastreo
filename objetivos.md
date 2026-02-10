@@ -6,17 +6,17 @@ classes: wide
 
 # DEFINICIÓN DE TARJETAS (OBJETIVOS / RESULTADOS ESPERADOS)
 objetivos_row:
-  - image_path: /rastreo/assets/img/ob_1.png
+  - image_path: /assets/img/ob_1.png
     alt: "Simulación"
     title: "1. Simulación y Entornos Hiperrealistas"
     excerpt: "Creación de entornos virtuales de desastre utilizando **IA generativa** y simuladores avanzados (NVIDIA Isaac Sim). Entrenamiento de la brigada en estrategias de exploración y colaboración multi-agente antes del despliegue."
   
-  - image_path: /rastreo/assets/img/ob_2.png
+  - image_path: /assets/img/ob_2.png
     alt: "Control y Asistencia"
     title: "2. Asistencia Humanoide Inteligente"
     excerpt: "Desarrollo de un sistema de control robusto mediante **Aprendizaje por Refuerzo (RL)**. El robot humanoide aprenderá a manipular objetos, retirar escombros y asistir directamente a víctimas (respiradores, provisiones) en entornos hostiles."
   
-  - image_path: /rastreo/assets/img/ob_3.png
+  - image_path: /assets/img/ob_3.png
     alt: "Validación Real"
     title: "3. Validación Sim-to-Real"
     excerpt: "Transferencia del aprendizaje simulado al mundo físico. Ejecución de pruebas y simulacros en el **CAR-Arena** y validación con equipos de rescate para demostrar la eficacia de la brigada mixta humanoide-cuadrúpedo."

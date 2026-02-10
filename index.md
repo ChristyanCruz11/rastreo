@@ -1,41 +1,41 @@
 ---
 layout: splash
-title: "RASTREO : Brigada Robotizada Inteligente de Búsqueda y Rescate"
+title: "RASTREO: Brigada Robotizada Inteligente de Búsqueda y Rescate"
 permalink: /
 
-# Portada con imagen (sin escribir /rastreo; usamos relative_url)
+# CONFIGURACIÓN DE LA CABECERA (PORTADA)
 header:
-  overlay_image: "{{ '/assets/img/leonardo_1.jpeg' | relative_url }}"
+  overlay_image: /assets/img/leonardo_1.jpeg
   overlay_filter: 0.30
   actions:
     - label: "Ver el proyecto"
-      url: "{{ '/proyecto/' | relative_url }}"
+      url: /proyecto/
     - label: "Equipo"
-      url: "{{ '/equipo/' | relative_url }}"
+      url: /equipo/
 excerpt: >
   Brigada mixta humanoide–cuadrúpedos con IA avanzada, simulación hiperrealista y validación <em>Sim‑to‑Real</em> para búsqueda y rescate en escenarios de desastre.
 
-# Tarjetas (con relative_url también)
+# CONFIGURACIÓN DE LAS TARJETAS (FEATURE ROW)
 feature_row:
-  - image_path: "{{ '/assets/img/leonardo_1.jpeg' | relative_url }}"
+  - image_path: /assets/img/leonardo_1.jpeg
     alt: "Proyecto"
     title: "Proyecto"
     excerpt: "Objetivos, motivación, hipótesis y metodología."
-    url: "{{ '/proyecto/' | relative_url }}"
+    url: /proyecto/
     btn_label: "Leer más"
     btn_class: "btn--primary"
-  - image_path: "{{ '/assets/img/leonardo_1.jpeg' | relative_url }}"
+  - image_path: /assets/img/leonardo_1.jpeg
     alt: "Resultados"
     title: "Resultados"
     excerpt: "Demos, vídeos, publicaciones y validación Sim‑to‑Real."
-    url: "{{ '/resultados/' | relative_url }}"
+    url: /resultados/
     btn_label: "Ver avances"
     btn_class: "btn--primary"
-  - image_path: "{{ '/assets/img/leonardo_1.jpeg' | relative_url }}"
+  - image_path: /assets/img/leonardo_1.jpeg
     alt: "Difusión"
     title: "Difusión"
     excerpt: "Apariciones en medios, notas de prensa y divulgación."
-    url: "{{ '/difusion/' | relative_url }}"
+    url: /difusion/
     btn_label: "Ver difusión"
     btn_class: "btn--primary"
 ---
@@ -51,7 +51,6 @@ feature_row:
   </p>
 </section>
 
-<!-- Menciones BBVA como badge flotante, discreto en la esquina -->
 <div class="bbva-badge">
   <small>
     “Proyecto realizado con la Beca Leonardo de Investigación Científica y Creación Cultural 2024 de la Fundación BBVA”.<br>
@@ -60,8 +59,8 @@ feature_row:
 </div>
 
 <style>
-/* Caja flotante discreta en esquina inferior derecha */
-.bbva-badge{
+/* Estilos para la caja flotante */
+.bbva-badge {
   position: fixed;
   right: 10px;
   bottom: 10px;
@@ -74,6 +73,7 @@ feature_row:
   z-index: 9999;
   font-size: 12px;
   line-height: 1.3;
+  color: #333; /* Asegura que el texto sea legible */
 }
 @media (max-width: 768px){
   .bbva-badge{ max-width: 86vw; right: 8px; left: 8px; }

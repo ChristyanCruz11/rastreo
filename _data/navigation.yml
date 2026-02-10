@@ -2,7 +2,7 @@
 main:
   - title: "Inicio"
     url: /
-  - title: "Objetivos del Proyecto"
+  - title: "Objetivos"
     url: /objetivos/
   - title: "Equipo"
     url: /equipo/

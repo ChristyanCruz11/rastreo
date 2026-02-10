@@ -110,13 +110,13 @@ classes: wide
       </div>
 
       <div style="margin-top: 1.5rem;">
-        <a href="https://goo.gl/maps/tu-enlace-a-google-maps" target="_blank" class="btn btn--primary">Ver en Google Maps</a>
+        <a href="[https://goo.gl/maps/tu-enlace-a-google-maps](https://www.google.com/maps/place/Centro+de+Autom%C3%A1tica+y+Rob%C3%B3tica+(UPM-CSIC)/@40.4394045,-3.6906928,17z/data=!3m1!4b1!4m6!3m5!1s0xd422904151b6ee1:0x808172ba7d95129!8m2!3d40.4394045!4d-3.6881125!16s%2Fg%2F11k548qkyc?entry=ttu&g_ep=EgoyMDI2MDIwNC4wIKXMDSoASAFQAw%3D%3D)" target="_blank" class="btn btn--primary">Ver en Google Maps</a>
       </div>
     </div>
   </div>
 
   <div class="contact-card">
-    <img src="/rastreo/assets/img/iros.jpeg" alt="Christyan Cruz en IROS" class="contact-banner" style="object-position: top center;">
+    <img src="/rastreo/assets/img/iros_2.PNG" alt="Christyan Cruz en IROS" class="contact-banner" style="object-position: top center;">
     
     <div class="contact-info">
       <h3>Christyan Mario Cruz Ulloa</h3>

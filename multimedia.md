@@ -5,17 +5,19 @@ permalink: /multimedia/
 classes: wide
 ---
 
-<div class="notice--warning" style="text-align: center; margin-top: 2rem; padding: 2rem;">
-  <p style="font-size: 3rem; margin-bottom: 0; color: #e67e22;">
-    <i class="fas fa-hard-hat"></i>
-  </p>
-  <h3 style="margin-top: 0.5rem;">Página en Construcción</h3>
-  <p>
-    Estamos procesando y subiendo los vídeos de las pruebas y simulaciones.<br>
-    <strong>¡Vuelve pronto para ver a los robots en acción!</strong>
-  </p>
-</div>
+## Video de presentación
 
-<p style="text-align: center; color: #777; margin-top: 3rem;">
-  <em>Próximamente: Galería de pruebas en el CAR-UPM-CSIC y simulaciones en Isaac Sim.</em>
-</p>
+Aquí puedes ver el concepto preliminar de la brigada robotizada en acción, explorando entornos y detectando víctimas en escenarios de desastre.
+
+{% include video id="IhivmUnY8rM" provider="youtube" %}
+
+---
+
+## Equipo RASTREO
+
+Nuestro equipo interdisciplinar trabajando en el Centro de Automática y Robótica (UPM-CSIC).
+
+<figure style="text-align: center;">
+  <img src="/rastreo/assets/img/team.PNG" alt="Equipo RASTREO" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+  <figcaption>Integrantes del proyecto RASTREO</figcaption>
+</figure>

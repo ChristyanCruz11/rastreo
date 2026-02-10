@@ -4,13 +4,13 @@ main:
     url: /
   - title: "Proyecto"
     url: /proyecto/
-  - title: "Resultados"
-    url: /resultados/
-  - title: "Difusión"
-    url: /difusion/
+  - title: "Objetivos"
+    url: /objetivos/
   - title: "Equipo"
     url: /equipo/
-  - title: "Datos y Código"
-    url: /datos-codigo/
+  - title: "Multimedia"
+    url: /multimedia/
+  - title: "Fundación BBVA"
+    url: /fundacion_bbva/
   - title: "Contacto"
     url: /contacto/

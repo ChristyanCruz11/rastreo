@@ -1,44 +1,39 @@
 ---
 layout: single
-title: "Resultados"
+title: "Resultados Experimentales"
 permalink: /resultados/
 classes: wide
+---
 
-# DEFINICIÓN DE LOS 3 OBJETIVOS PARA LAS TARJETAS
-objetivos_row:
-  - image_path: /rastreo/assets/img/ob_1.png
-    alt: "Simulación"
-    title: "1. Simulación y Entornos Hiperrealistas"
-    excerpt: "Creación de entornos virtuales de desastre utilizando **IA generativa** y simuladores avanzados (NVIDIA Isaac Sim). Entrenamiento de la brigada en estrategias de exploración y colaboración multi-agente antes del despliegue."
-  
-  - image_path: /rastreo/assets/img/ob_2.png
-    alt: "Control y Asistencia"
-    title: "2. Asistencia Humanoide Inteligente"
-    excerpt: "Desarrollo de un sistema de control robusto mediante **Aprendizaje por Refuerzo (RL)**. El robot humanoide aprenderá a manipular objetos, retirar escombros y asistir directamente a víctimas (respiradores, provisiones) en entornos hostiles."
-  
-  - image_path: /rastreo/assets/img/ob_3.png
-    alt: "Validación Real"
-    title: "3. Validación Sim-to-Real"
-    excerpt: "Transferencia del aprendizaje simulado al mundo físico. Ejecución de pruebas y simulacros en el **CAR-Arena** y validación con equipos de rescate para demostrar la eficacia de la brigada mixta humanoide-cuadrúpedo."
+## Demos y Pruebas de Concepto
+
+A continuación presentamos una recopilación de los resultados obtenidos hasta la fecha, incluyendo simulaciones en Isaac Sim, pruebas de locomoción y experimentos de detección de víctimas en el CAR-Arena.
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 2rem;">
+  <iframe 
+    src="https://www.youtube.com/embed/videoseries?list=PLvueuDr32h8OwxWGhWQCkK0n5p3aZRJ3c" 
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
+
+<div style="text-align: center; margin-bottom: 3rem;">
+  <a href="https://youtube.com/playlist?list=PLvueuDr32h8OwxWGhWQCkK0n5p3aZRJ3c&si=xzQ8i_w8wEcExwnI" target="_blank" class="btn btn--primary btn--large">
+    <i class="fab fa-youtube"></i> Ver lista completa en YouTube
+  </a>
+</div>
 
 ---
 
-## Motivación e Impacto
+## Avances del Proyecto
 
-La creciente incidencia de desastres naturales evidencia la necesidad urgente de optimizar las capacidades de búsqueda y rescate. Las operaciones actuales se ven obstaculizadas por terrenos peligrosos, estructuras inestables y riesgos para los rescatistas humanos.
+### 1. Simulación y Entornos Sintéticos
+Hemos desarrollado entornos hiperrealistas utilizando **NVIDIA Isaac Sim** para el entrenamiento de agentes mediante Aprendizaje por Refuerzo (RL). Estos entornos replican condiciones de fuego, humo y escombros.
 
-**RASTREO** propone una solución tecnológica disruptiva: una **Brigada Robotizada** que combina la agilidad de los **robots cuadrúpedos** con la capacidad de manipulación de los **robots humanoides**.
+### 2. Validación Sim-to-Real
+Los algoritmos entrenados en simulación se han transferido con éxito a los robots cuadrúpedos físicos, demostrando capacidades de locomoción robusta en terrenos irregulares y escaleras dentro de las instalaciones del CAR-UPM-CSIC.
 
----
-
-## Objetivos del Proyecto
-
-El proyecto se estructura en tres pilares fundamentales que abarcan desde la simulación avanzada hasta la validación en escenarios reales:
-
-{% include feature_row id="objetivos_row" %}
-
----
-
-## Metodología
-
-El proyecto utiliza una metodología innovadora basada en **Transfer Learning Sim-to-Real**. Al entrenar a los agentes en entornos virtuales seguros pero caóticos (generados procedimentalmente), la IA puede aprender de millones de iteraciones. Posteriormente, estas políticas de comportamiento se refinan y transfieren a los robots físicos para operar con precisión en el mundo real.
+### 3. Percepción Multimodal
+Integración de cámaras de profundidad (RGB-D) y LiDAR para la identificación de víctimas (maniquíes y actores humanos) en condiciones de baja visibilidad.

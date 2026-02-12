@@ -19,7 +19,7 @@ feature_row:
     alt: "Proyecto"
     title: "Proyecto"
     excerpt: "Objetivos, motivación, hipótesis y metodología."
-    url: /proyecto/
+    url: /objetivos/
     btn_label: "Leer más"
     btn_class: "btn--primary"
   - image_path: /assets/img/leonardo_2.jpeg
@@ -33,7 +33,7 @@ feature_row:
     alt: "Difusión"
     title: "Difusión"
     excerpt: "Apariciones en medios, notas de prensa y divulgación."
-    url: /difusion/
+    url: /multimedia/
     btn_label: "Ver difusión"
     btn_class: "btn--primary"
 ---

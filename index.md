@@ -10,8 +10,10 @@ header:
   actions:
     - label: "Conoce a nuestro Equipo"
       url: /equipo/
+    - label: "Novedades"
+      url: /novedades/
 excerpt: >
-  Brigada mixta humanoide–cuadrúpedos con IA avanzada, simulación hiperrealista y validación <em>Sim‑to‑Real</em> para búsqueda y rescate en escenarios de desastre.
+  Brigada mixta humanoide–cuadrúpedos con IA avanzada, para búsqueda y rescate en escenarios de desastre.
 
 # CONFIGURACIÓN DE LAS TARJETAS (FEATURE ROW)
 feature_row:

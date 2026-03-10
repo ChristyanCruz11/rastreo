@@ -74,20 +74,6 @@ classes: wide
   </div>
 
   <div class="team-card">
-    <img src="/rastreo/assets/img/David.png" alt="David">
-    <div class="team-name">David Orbea</div>
-    <div class="team-role">Investigador Predoctoral</div>
-    <div class="team-affil">CAR‑UPM‑CSIC</div>
-  </div>
-
-  <div class="team-card">
-    <img src="/rastreo/assets/img/Jorge.png" alt="Jorge">
-    <div class="team-name">Jorge García</div>
-    <div class="team-role">Investigador Predoctoral</div>
-    <div class="team-affil">CAR‑UPM‑CSIC</div>
-  </div>
-
-  <div class="team-card">
     <img src="/rastreo/assets/img/Jaime_1.png" alt="Jaime_1">
     <div class="team-name">Jaime Bravo</div>
     <div class="team-role">Investigador Predoctoral</div>
@@ -98,6 +84,20 @@ classes: wide
     <img src="/rastreo/assets/img/Fiorella.png" alt="Fiorella">
     <div class="team-name">Fiorella Capolungo</div>
     <div class="team-role">Investigadora Contratada</div>
+    <div class="team-affil">CAR‑UPM‑CSIC</div>
+  </div>
+
+    <div class="team-card">
+    <img src="/rastreo/assets/img/Jorge.png" alt="Jorge">
+    <div class="team-name">Jorge García</div>
+    <div class="team-role">Investigador Predoctoral</div>
+    <div class="team-affil">CAR‑UPM‑CSIC</div>
+  </div>
+  
+    <div class="team-card">
+    <img src="/rastreo/assets/img/David.png" alt="David">
+    <div class="team-name">David Orbea</div>
+    <div class="team-role">Investigador Predoctoral</div>
     <div class="team-affil">CAR‑UPM‑CSIC</div>
   </div>
 
